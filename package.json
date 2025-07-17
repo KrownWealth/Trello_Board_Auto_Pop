@@ -1,0 +1,15 @@
+{
+  "name": "trello_board_auto_pop",
+  "version": "1.0.0",
+  "main": "import-to-trello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}

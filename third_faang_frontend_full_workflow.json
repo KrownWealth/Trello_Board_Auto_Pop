@@ -1,0 +1,158 @@
+{
+  "name": "FAANG Frontend Mastery - Concept Cards",
+  "lists": [
+    {
+      "name": "Topics",
+      "cards": [
+        {
+          "name": "Execution Context & Hoisting",
+          "desc": "Understand how variable and function declarations are processed",
+          "instructions": "Study the temporal dead zone. Create diagrams of different execution contexts.",
+          "checklist": [
+            "Resource: MDN Hoisting → https://developer.mozilla.org/en-US/docs/Glossary/Hoisting",
+            "Problem: Predict outputs for 5 different hoisting scenarios",
+            "Verification: Explain TDZ to a peer without notes"
+          ]
+        },
+        {
+          "name": "Closures",
+          "desc": "Master lexical scoping and practical closure patterns",
+          "instructions": "Implement 3 real-world use cases from scratch",
+          "checklist": [
+            "Resource: JavaScript.info Closures → https://javascript.info/closure",
+            "Problem: Create memoization function",
+            "Problem: Implement module pattern",
+            "Verification: Debug a closure-related memory leak"
+          ]
+        },
+        {
+          "name": "Prototypal Inheritance",
+          "desc": "Understand prototype chains and delegation",
+          "instructions": "Avoid class syntax for these exercises",
+          "checklist": [
+            "Resource: __proto__ vs prototype → https://dmitripavlutin.com/javascript-prototypal-inheritance/",
+            "Problem: Implement inheritance without classes",
+            "Problem: Polyfill Array.map using prototypes",
+            "Verification: Diagram a complex prototype chain"
+          ]
+        },
+        {
+          "name": "React Fiber Architecture",
+          "desc": "Understand reconciliation and rendering process",
+          "instructions": "Study React source code where possible",
+          "checklist": [
+            "Resource: Fiber Principles → https://github.com/acdlite/react-fiber-architecture",
+            "Problem: Implement simple reconciler",
+            "Verification: Explain diffing algorithm steps"
+          ]
+        },
+        {
+          "name": "Hooks Implementation",
+          "desc": "Learn how hooks work under the hood",
+          "instructions": "Build custom versions of standard hooks",
+          "checklist": [
+            "Resource: Hooks RFC → https://github.com/reactwg/react-18/discussions/41",
+            "Problem: Build usePrevious hook",
+            "Problem: Create useState with middleware",
+            "Verification: Handle stale closures in custom hook"
+          ]
+        },
+        {
+          "name": "Critical Rendering Path",
+          "desc": "Optimize page load performance",
+          "instructions": "Use Chrome DevTools for all exercises",
+          "checklist": [
+            "Resource: Web.dev CRP → https://web.dev/critical-rendering-path/",
+            "Problem: Reduce CSSOM blocking time",
+            "Problem: Eliminate render-blocking JS",
+            "Verification: Achieve <1s First Contentful Paint"
+          ]
+        },
+        {
+          "name": "Service Workers",
+          "desc": "Implement offline-first experiences",
+          "instructions": "Focus on caching strategies",
+          "checklist": [
+            "Resource: Workbox Guide → https://web.dev/learn/pwa/service-workers/",
+            "Problem: Cache API responses with stale-while-revalidate",
+            "Verification: Demonstrate offline functionality"
+          ]
+        },
+        {
+          "name": "Component Composition",
+          "desc": "Design flexible component APIs",
+          "instructions": "Use compound components pattern",
+          "checklist": [
+            "Resource: React Composition → https://reactjs.org/docs/composition-vs-inheritance.html",
+            "Problem: Build accessible modal system",
+            "Verification: Support multiple design variants"
+          ]
+        },
+        {
+          "name": "State Management",
+          "desc": "Architect scalable state solutions",
+          "instructions": "Compare different approaches",
+          "checklist": [
+            "Resource: State Colocation → https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster",
+            "Problem: Implement undo/redo history",
+            "Verification: Handle 10k+ items in state"
+          ]
+        },
+        {
+          "name": "Sliding Window",
+          "desc": "Solve array/string problems efficiently",
+          "instructions": "Focus on O(n) solutions",
+          "checklist": [
+            "Resource: Algorithm Pattern → https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/",
+            "Problem: Maximum sum subarray of size K",
+            "Problem: String anagrams",
+            "Verification: Solve 3 LeetCode mediums in <30 mins"
+          ]
+        },
+        {
+          "name": "Tree Traversal",
+          "desc": "Master DFS and BFS approaches",
+          "instructions": "Implement both recursively and iteratively",
+          "checklist": [
+            "Resource: Visualizations → https://visualgo.net/en/bst",
+            "Problem: Serialize/deserialize binary tree",
+            "Problem: Lowest common ancestor",
+            "Verification: Whiteboard traversal from memory"
+          ]
+        },
+        {
+          "name": "STAR Method",
+          "desc": "Structure compelling interview responses",
+          "instructions": "Quantify all achievements with metrics",
+          "checklist": [
+            "Resource: Amazon STAR Guide → https://www.amazon.jobs/en/landing_pages/star",
+            "Problem: Craft 5 failure stories",
+            "Verification: Mock interview with senior engineer"
+          ]
+        }
+      ]
+    },
+   {
+  "name": "Focus",
+  "desc": "Current week's focus (2-3 cards max)",
+  "cards": []
+},
+{
+  "name": "Current",
+  "desc": "In-progress concepts",
+  "cards": []
+},
+{
+  "name": "Covered",
+  "desc": "Mastered concepts",
+  "cards": []
+}
+
+  ],
+  "workflow_rules": [
+    "→ 2-3 concepts per week",
+    "→ 70% practical implementation",
+    "→ Verify before moving to Covered",
+    "→ Weekly review every Sunday"
+  ]
+}
