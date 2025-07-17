@@ -45,7 +45,7 @@ Trello\_Board\_Auto\_Pop/
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/your-username/trello-board-autopop.git
+git clone https://github.com/KrownWealth/Trello_Board_Auto_Pop.git
 cd Trello_Board_Auto_Pop
 ````
 
